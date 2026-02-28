@@ -13,4 +13,4 @@ app = FastAPI(title=settings.APP_NAME)
 
 app.include_router(router)
 
-handler = Mangum(app)
+handler =  Mangum(app)
